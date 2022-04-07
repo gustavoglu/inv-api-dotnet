@@ -43,7 +43,7 @@ app.UseMiddleware<ErrorResponseMiddleware>();
 
 app.UseCors("*");
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthentication();
 
